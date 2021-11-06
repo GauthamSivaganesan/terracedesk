@@ -1,0 +1,292 @@
+.webdev-bg{
+    background-image: url(/assets/images/BGimages/bg2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+     padding-bottom: 5vh;
+   
+}
+.topic{
+    background-color: black;
+    h1{
+        color: orangered;
+        text-shadow:2px 2px 2px black;
+        margin-top: 15vh;
+    }
+    h5{
+        color: orangered;
+        text-shadow:2px 2px 2px black;
+    }
+    img{
+        width: 71vh;
+    }
+}
+.appdev{
+    h1{
+        color: orangered;
+        text-shadow:2px 2px 2px black;
+        margin-top: 15vh;
+        margin-bottom: 5vh;
+    }
+    h6{
+        margin-bottom: 10vh;
+    }
+}
+.col-align{
+    text-align: center;
+}
+.monitor{
+    width: 70vh;
+    margin-top: 15vh;
+   
+}
+.services{
+    h1{
+        color: orangered;
+        text-shadow:2px 2px 2px black;
+        margin-top: 5vh;
+    }
+}
+.game-button{
+    margin-top: 5vh;
+    width: 45vh;
+    background-color: transparent;
+    border-color: transparent;
+    img{
+        width: 15vh;
+    }
+    h1{
+        color: orangered;
+        text-shadow:2px 2px 2px black;
+    }
+    p{
+        color: white;
+        font-weight: bold;
+    }
+}.game-button:hover {
+    transform: translateY(-5px) scale(1.005) translateZ(0);
+    background-color: rgba(255, 255, 255, 0.486);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.336);
+    border-radius: 25px 25px 25px 25px;
+    transition: transform 0.3s ease-out;
+  }
+
+.static-web{
+    width: 35%;
+    margin-top: 70px;
+    margin-left: 35vh;
+    border: 5px solid orangered;
+    border-radius: 48%;
+    padding: 1%;
+    height: 105%;
+    text-align: center;
+    background-color: transparent;
+    h1{
+        margin-top: 5%;
+        color: black;
+    }
+    p{
+        color: black;
+    }
+}
+.static-web:hover{
+    h1{
+        color: black;
+    }
+}
+.dynamic-web{
+    width: 35%;
+    margin-top: 70px;
+    border: 5px solid orangered;
+    border-radius: 48%;
+    padding: 1%;
+    height: 105%;
+    text-align: center;
+    margin-left: 35vh;
+    background-color: transparent;
+    h1{
+        margin-top: 2%;
+    }
+}
+.custom-web{
+    width: 18%;
+    margin-top: 97px;
+    border: 5px solid orangered;
+    border-radius: 48%;
+    padding: 1%;
+    height: 92%;
+    text-align: center;
+    margin-left: 84vh;
+    background-color: transparent;
+    h1{
+        margin-top: 11%;
+    }
+}
+.mobile-web{
+    width: 35%;
+    margin-top: 70px;
+    border: 5px solid orangered;
+    border-radius: 48%;
+    padding: 1%;
+    height: 115%;
+    text-align: center;
+    margin-left: 40vh;
+    background-color: transparent;
+    h1{
+        margin-top: -10%;
+    }
+}
+.ecommerce-web{
+    width: 35%;
+    margin-top: 70px;
+    border: 5px solid orangered;
+    border-radius: 48%;
+    padding: 1%;
+    height: 115%;
+    text-align: center;
+    margin-left: 30vh;
+    background-color: transparent;
+    h1{
+        margin-top: -10%;
+    }
+}
+
+.discuss-row{
+    background-image: url(/assets/images/BGimages/Footer.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin-top: 10vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    h1{
+        margin-top: 2vh;
+        margin-bottom: 5vh;
+        color: orangered;
+        font-size: 6vh;
+    }
+    p{
+        margin-bottom: 5vh;
+        color: white;
+        font-size: 4vh;
+    }
+
+}
+.our-templates{
+    h1{
+        font-weight: bolder;
+        font-size: 5vh;
+        margin-bottom: 3vh;
+    }
+    p{
+        font-size: 3vh;
+    padding-left: 1vh;
+    }
+}
+.button-custom {
+    --c: orangered;
+    color: var(--c);
+    font-size: 16px;
+    border: 0.3em solid var(--c);
+    border-radius: 0.5em;
+    width: 25%;
+    height: 4em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: 0.1em;
+    text-align: center;
+    line-height: 3em;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: 0.5s;
+    margin: 1em;
+}
+.product-row{
+    .row-padding{
+        margin-bottom: 80px;
+    }
+    h2{
+        margin-top: 21vh; 
+        font-size: 4vh
+    }
+    .product-column{
+        text-align: center; 
+        margin-top: 6vh;
+        img{
+            width: 16vh;
+        }
+    }
+}
+.customer-row{
+    background-color: rgba(128, 128, 128, 0.315);
+    .heading{
+        text-align: center;margin-top: 5vh;margin-bottom: 3vh;
+    }
+}
+.button-custom span {
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    background-color: var(--c);
+    transform: translateY(150%);
+    border-radius: 50%;
+    left: calc((var(--n) - 1) * 25%);
+    transition: 0.5s;
+    transition-delay: calc((var(--n) - 1) * 0.1s);
+    z-index: -1;
+}
+
+.button-custom:hover {
+    color: white;
+}
+
+.button-custom:hover span {
+    transform: translateY(0) scale(2);
+}
+
+.button-custom span:nth-child(1) {
+    --n: 1;
+}
+
+.button-custom span:nth-child(2) {
+    --n: 2;
+}
+.button-custom span:nth-child(3) {
+    --n: 3;
+}
+.button-custom span:nth-child(4) {
+    --n: 4;
+}
+
+.wrapper {
+    margin-top: 15vh;
+    /*This part is important for centering*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .typing-demo {
+    width: 18ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-size: 10vh;
+    color: orangered;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
